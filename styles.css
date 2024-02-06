@@ -1,0 +1,26 @@
+h1
+{
+    color: bisque;
+}
+
+#bola
+{
+    color: brown;
+}
+span
+{
+ font-size: 3em;
+}
+header
+{
+    background-color: pink;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+.header1 
+{
+    list-style:none ;
+    display: inline;
+}

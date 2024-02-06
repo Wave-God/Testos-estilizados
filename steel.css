@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-image: url(img/3415501.jpg) ;
+    background-size: cover;
+}
+header
+{   
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: azure;
+    height:3em ;
+    width: 100%;
+    justify-content: space-between;
+}
+header input
+{
+    border: 2px solid blue;
+    background-color: blue;
+    color: azure;
+    border-radius: 30px;
+    height: 30px;
+    width: 50vh;
+    align-content: center;
+    margin: 2em;
+    padding: 1em;
+}
+.logo
+{
+    padding: 10px;
+    padding-left: 15px;
+}
+header .menu
+{
+    padding: 10px;
+    padding-right: 20px;
+}
+.spacer
+{
+height: 30px;
+}
+.write-corner
+{
+   position: relative;
+   display: flex;
+   background-color: azure;
+   width: 82%;
+   height: 87vh;
+
+}
+.add-area
+{
+    width: 33vh;
+    background-color: aqua;
+    margin: 0;
+}
+.add-area ul
+{
+    gap: 2em;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vh;
+    padding: 10px;
+    padding-left: 30px;
+}
+.add-area li
+{
+    padding: 20px;
+    gap: 2em;
+    display: inline;
+    list-style: none;
+}
+.add-fonts
+{
+    background-image: url(img/brand_family_FILL0_wght400_GRAD0_opsz24.png);
+    background-size: cover;
+    width: 5vh;
+    height: 5vh;
+}
+.add-fonts ul li a
+{
+    position: absolute;
+    left: 0;
+    background-color: aquamarine;
+    display: none;
+    width: 70px;
+}
+.add-fonts:hover
+{
+    background-color: #2b93e3;
+}
+
+.add-anim
+{
+    background-image:url(img/texture_add_FILL0_wght400_GRAD0_opsz24.png);
+    background-size: cover;
+    width: 5vh;
+    height: 5vh;
+}
+.write-area
+{
+    padding-left:10px ;
+    margin-left: 10px;  
+    position: relative;
+}
+textarea
+{
+    position: absolute;
+    left: 80x;
+    height: 20px;
+    width: 148vh;
+    top: 10px;
+    min-height: 500px;
+    overflow: hidden;
+}
